@@ -1,0 +1,54 @@
+<section>
+
+    <header>
+      <img src="assets/Images/Prancheta 1.png" alt="" width="240px">
+    </header>
+
+    <main>
+      <h1>Faça Seu Cadastro</h1>
+
+      <div id="cad-box" *ngIf="!choosed">
+        <h2 style="padding-left: 10px;">Que Tipo de Conta Você Deseja Criar ?</h2>
+          <button value="NORMAL" #normal (click)="accounttype(normal.value)">Conta Comum</button>
+          <button value="MEDIADOR" #mediador (click)="accounttype(mediador.value)">Eu Sou Um Mediador</button>
+      </div>
+
+      <div class="cad-con" *ngIf="choosed && acountD == 'NORMAL'">
+        <label for="nome">Digite seu nome de usuario</label>
+        <input id="nome" type="text" placeholder="Seu Nome Não Pode Ser Fictício"/>
+
+        <label for="cpf">Digite Seu CPF</label>
+        <input id="cpf" type="text" placeholder="CPF"/>
+
+        <label for="senha">Crie Uma Senha</label>
+        <input id="senha" type="text" placeholder="Crie Uma Senha De Alta Complexidade"/>
+
+        <label for="nascimento">Qual a Sua Data de Nascimento ?</label>
+        <input id="nascimento" type="date"/>
+
+        <button class="final-btn">Criar Minha Conta</button>
+      </div>
+
+      <div class="cad-con" *ngIf="choosed && acountD=='MEDIADOR' ">
+        <label for="nome">Digite seu nome Como Mediador</label>
+        <input id="nome" type="text" placeholder="Seu Nome Não Pode Ser Fictício"/>
+
+        <label for="cpf">Digite Seu CPF</label>
+        <input id="cpf" type="text" placeholder="CPF"/>
+
+        <label for="senha">Crie Uma Senha</label>
+        <input id="senha" type="text" placeholder="Crie Uma Senha De Alta Complexidade"/>
+
+        <label for="nascimento">Qual a Sua Data de Nascimento ?</label>
+        <input id="nascimento" type="date"/>
+
+        <button class="final-btn">Criar Minha Conta</button>
+      </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</section>
