@@ -12,11 +12,6 @@ body{
     align-items: center;
     padding: 1.2rem 1.8rem;
 }
-#header-logo{
-    /* display: flex;
-    align-items: center;
-     */
-}
 #header-a{
     display:flex;
     align-items: center;
