@@ -54,6 +54,11 @@ section{
   width: 100px;
   height: 40px;
 }
+#header-button button:hover{
+  background-color:#e9e9d0;
+  color: #a5755b;
+  transition: background 0.7s;
+}
 main{
   display:    flex;
   justify-content: center;
@@ -68,12 +73,22 @@ main{
 }
 #main-text{
   width: 500px;
+  background: linear-gradient(45deg,#a5755b,#754b34,#b47654,#b17a5c);
+  background-size: 400% 100%;
+  animation: gradient 10s ease-in-out infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes gradient{
+  0%{background-position-x: 0% ;}
+  100%{background-position: 400%;}
 }
 #main-text p{
-  font-size: 50px;
   line-height: 40px;
+  font-size: 50px;
   color: #a5755b;
 }
+
 #main-text2{
   font-size: 1.2rem;
   color: white;
