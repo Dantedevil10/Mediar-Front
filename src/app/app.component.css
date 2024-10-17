@@ -1,13 +1,10 @@
-*{
+/* *{
   box-sizing: border-box;
   margin: 0;
   text-decoration: none;
 }
 body{
   background-color: #131B2B;
-}
-button{
-  cursor: pointer;
 }
 #nav-bar{
   display: flex;
@@ -98,4 +95,4 @@ main{
   position: fixed;
   left: 60%;
   top: 10%;
-}
+} */

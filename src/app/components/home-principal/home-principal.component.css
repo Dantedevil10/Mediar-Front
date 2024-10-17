@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+}
+section{
+  background-color: #131B2B;
+  height: 100vh;
+}
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.8rem;
+}
+#header-a{
+  display:flex;
+  align-items: center;
+}
+#header-a ul{
+  display:flex;
+  justify-content: center;
+  list-style: none;
+}
+.nav-item{
+  margin: 0 15px;
+  border-radius:10px;
+  transition: ease all 0.5s;
+  background-color: transparent;
+  padding: 10px;
+}
+.nav-item:hover{
+  background-color: #e9e9d0;
+  color: black;
+}
+.nav-item a:hover{
+  color: black;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #e9e9d0;
+}
+#header-button{
+  display: flex;
+  gap: 20px;
+}
+#header-button button{
+  background-color: #a5755b;
+  color: #e9e9d0;
+  border:none;
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+}
+main{
+  display:    flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 470px;
+}
+#main-content{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  gap: 25px;
+}
+#main-text{
+  width: 500px;
+}
+#main-text p{
+  font-size: 50px;
+  line-height: 40px;
+  color: #a5755b;
+}
+#main-text2{
+  font-size: 1.2rem;
+  color: white;
+}
+#main-button button{
+  border: none;
+  border-radius: 20px;
+  width: 220px;
+  height: 30px;
+  transition: ease all 0.5s;
+}
+#main-button button:hover{
+  background-color: #ffffff88;
+}
+#main-button button p{
+  font-size: 19px;
+}
+#wing{
+  width: 400px;
+  position: fixed;
+  left: 60%;
+  top: 10%;
+}
