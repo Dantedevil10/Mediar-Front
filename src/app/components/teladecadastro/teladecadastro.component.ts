@@ -8,14 +8,10 @@ import { Component } from '@angular/core';
 export class TeladecadastroComponent {
 
 choosed:boolean = false;
-acountD:string = '';
+acountD:string = ''; //Essa Variavel Vai Guardar o valor do tipo de conta
 
 accounttype(acount:string){
-  if(acount == "NORMAL"){
-    this.acountD = acount
-  }else{
-    this.acountD = "MEDIADOR"
-  }
+  this.acountD = acount.valueOf()
   this.choosed = true
   console.log(this.acountD)
 }
