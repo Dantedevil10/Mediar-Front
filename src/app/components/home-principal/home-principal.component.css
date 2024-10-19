@@ -75,7 +75,7 @@ main{
   width: 500px;
   background: linear-gradient(45deg,#a5755b,#754b34,#b47654,#b17a5c);
   background-size: 400% 100%;
-  animation: gradient 10s ease-in-out infinite alternate;
+  animation: gradient 6s ease-in-out infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
