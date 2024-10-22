@@ -20,7 +20,7 @@ main h1{
     font-weight: unset;
     text-transform: uppercase;
 }
-#div-progress-bar{
+#container-progress-bar{
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -56,13 +56,53 @@ main h1{
 main a{
     display:flex;
     justify-content:center;
+    padding-bottom: 20px;
     text-decoration:none;
+    color: black;
     font-weight: bold;
 }
-#aks{
+#container-general-info-preview{
     background-color: black;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 200px;
+    height: 150px;
+}
+#container-info-preview{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 400px;
+}
+#info-preview{
+    position: relative;
+    left: -5px;
+}
+#desc-med{
+    background-color: blue;
+    display: flex;
+    position: relative;
+    left: 5px;
+    height: 100%;
+    width: 200px;
+}
+#image-med{
+    position: relative;
+    top: 3px;
+    right: 19px;
+    height: 40px;
+    width: 40px;
+}
+#text-med{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    overflow: hidden;
+    left: -151px;
+    height: 100%;
+    width: 156px;
+}
+#text-med p{
+    word-wrap: break-word;
+    white-space: normal;
 }
