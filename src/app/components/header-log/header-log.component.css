@@ -1,0 +1,25 @@
+header{
+  width: 100%;
+  height: 11vh;
+  background-color: #131B2B;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  align-items: center;
+}
+#user-icon{
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 100px;
+}
+#user-content{
+  display: flex;
+  align-items: center;
+  gap:20px;
+  margin-right: 50px;
+}
+#content{
+  display: flex;
+  gap: 100px;
+}
