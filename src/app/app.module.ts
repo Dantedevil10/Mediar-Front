@@ -11,6 +11,7 @@ import { TeladeandamentoComponent } from './components/teladeandamento/teladeand
 import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { HeaderLogComponent } from './components/header-log/header-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
+import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
 
 @NgModule({ declarations: [
         AppComponent,
@@ -21,7 +22,8 @@ import { NotificacaoComponent } from './pagina/notificacao/notificacao.component
         TeladeloginComponent,
         HomeLogComponent,
         HeaderLogComponent,
-        NotificacaoComponent
+        NotificacaoComponent,
+        AgendamentoComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule], providers: [

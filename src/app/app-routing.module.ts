@@ -6,15 +6,17 @@ import { TeladeloginComponent } from './components/teladelogin/teladelogin.compo
 import { TeladeandamentoComponent } from './components/teladeandamento/teladeandamento.component';
 import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
+import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
 
 const routes: Routes = [
-  // Rota Principal Caso O Caminho Não Seja Encontrado
+
   { path: 'cadastro', component: TeladecadastroComponent},
+  { path: 'agendar', component: AgendamentoComponent},
   { path: 'login', component: TeladeloginComponent},
   { path: 'andamento', component: TeladeandamentoComponent},
   { path: 'home-log', component: HomeLogComponent},
   { path: 'noti', component: NotificacaoComponent},
-  { path: '**', component: HomePrincipalComponent },
+  { path: '**', component: HomePrincipalComponent },// Rota Principal Caso O Caminho Não Seja Encontrado
 ];
 
 @NgModule({

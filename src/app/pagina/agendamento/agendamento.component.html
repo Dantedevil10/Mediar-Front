@@ -1,0 +1,42 @@
+<section>
+
+
+  <div id="butn">
+    <img routerLink="/home-log" src="assets/icons/undo_15093184.png" width="40px">
+    <b routerLink="/home-log">Voltar</b>
+  </div>
+
+
+  <h1 style="text-align: center;">Abertura De Processo</h1>
+  <div class="cad-con">
+    <label for="dado">Digite Algum dado Do Acusado Para Entrarmos em Contato :</label>
+    <input id="dado" type="text" placeholder="Digite algum dado ou informação sobre o acusado"/>
+
+    <label for="nome">Digite o Nome Do Acusado :</label>
+    <input id="nome" type="text" placeholder="Digite o Nome da Pessoa que Você Está acusando"/>
+
+    <label for="ema">Digite Seu Email de Contato :</label>
+    <input id="ema" type="text" placeholder="Digite Seu Email"/>
+
+    <label for="cpf">Seu CPF :</label>
+    <input id="cpf" disabled type="text" placeholder="CPF DO AUTOR"/>
+
+    <label for="nau">Nome Do Autor Do Processo :</label>
+    <input id="nau" type="text" placeholder="Digite Seu Nome Completo"/>
+
+    <div id="esc">
+      <label for="options">Seu Processo Se Classificaria como Urgente ?</label>
+      <select id="options">
+        <option value="opcao1">Sim </option>
+        <option value="opcao2">Não</option>
+      </select>
+    </div>
+
+
+    <label for="acu">* Escreva sua acusação com detalhes e justifique a abertura deste processo </label>
+    <textarea name="acusacao" id="acu"></textarea>
+
+    <button class="final-btn">Enviar Meu Processo</button>
+  </div>
+
+</section>
