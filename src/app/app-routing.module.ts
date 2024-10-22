@@ -1,13 +1,15 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePrincipalComponent } from './components/home-principal/home-principal.component';
 import { TeladecadastroComponent } from './components/teladecadastro/teladecadastro.component';
 import { TeladeloginComponent } from './components/teladelogin/teladelogin.component';
+import { TeladeandamentoComponent } from './components/teladeandamento/teladeandamento.component';
 
 const routes: Routes = [
   // Rota Principal Caso O Caminho Não Seja Encontrado
   { path: 'cadastro', component: TeladecadastroComponent},
   { path: 'login', component: TeladeloginComponent},
+  { path: 'andamento', component: TeladeandamentoComponent},
   { path: '**', component: HomePrincipalComponent },
 ];
 
