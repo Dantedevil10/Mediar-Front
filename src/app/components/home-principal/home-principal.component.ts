@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home-principal',
@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomePrincipalComponent {
 
-  
+  @ViewChild('funcionamento', { static: false }) funcionamentoSection!: ElementRef;
+
+  scrollToFuncionamento() {
+    this.funcionamentoSection.nativeElement.scrollIntoView({ behavior: 'smooth' });
+  }
 
 }

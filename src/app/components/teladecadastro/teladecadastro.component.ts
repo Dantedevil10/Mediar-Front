@@ -15,6 +15,11 @@ accounttype(acount:string){
   this.choosed = true
   console.log(this.acountD)
 }
+backtochoose(){
+  this.choosed = false
+  this.acountD = ''
+  console.log(this.acountD)
+}
 
 
 }

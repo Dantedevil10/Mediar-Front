@@ -5,6 +5,9 @@ section{
   color: white;
   height: 100vh;
 }
+u{
+  cursor: pointer;
+}
 h1{
   font-family: "Italianno", cursive;
   text-align: center;
@@ -52,9 +55,13 @@ h1{
   display: flex;
 }
 #cad-box button{
-  border: none;
+  border: 6px solid transparent;
   padding: 10px;
   font-size: 1.4rem;
   border-radius: 20px;
   background: white;
+  transition: ease all 0.5s;
+}
+#cad-box button:hover{
+  border: 6px solid rgb(0, 110, 255);
 }

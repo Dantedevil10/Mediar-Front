@@ -1,0 +1,63 @@
+section{
+  min-height: 100vh;
+  background-color: rgb(227, 239, 250);
+}
+
+#butn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+#butn:hover{
+  text-decoration: underline;
+
+}
+#acu{
+  height: 130px;
+  border: none;
+  border-radius: 6px;
+}
+#esc{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#options{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.cad-con{
+  border: 1px solid white;
+  background-color: #d3a992b4;
+  width: 500px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+.cad-con input{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+.final-btn{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(21, 129, 39);
+  color: white;
+  transition: ease all 0.4s;
+}
+.final-btn:hover{
+  background-color: rgb(133, 202, 145);
+}

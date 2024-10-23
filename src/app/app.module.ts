@@ -8,6 +8,11 @@ import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http'
 import { TeladecadastroComponent } from './components/teladecadastro/teladecadastro.component';
 import { TeladeloginComponent } from './components/teladelogin/teladelogin.component';
 import { SobreNosComponent } from './components/sobre-nos/sobre-nos.component';
+import { TeladeandamentoComponent } from './components/teladeandamento/teladeandamento.component';
+import { HomeLogComponent } from './pagina/home-log/home-log.component';
+import { HeaderLogComponent } from './components/header-log/header-log.component';
+import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
+import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
 
 
 @NgModule({ declarations: [
@@ -15,7 +20,14 @@ import { SobreNosComponent } from './components/sobre-nos/sobre-nos.component';
         HomePrincipalComponent,
         TeladecadastroComponent,
         TeladeloginComponent,
-        SobreNosComponent
+        SobreNosComponent,
+        TeladeandamentoComponent,
+        TeladeloginComponent,
+        HomeLogComponent,
+        HeaderLogComponent,
+        NotificacaoComponent,
+        AgendamentoComponent
+
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule], providers: [

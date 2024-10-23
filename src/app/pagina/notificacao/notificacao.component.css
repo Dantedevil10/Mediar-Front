@@ -1,0 +1,21 @@
+section{
+  min-height: 100vh;
+  background-color: rgb(227, 239, 250);
+}
+h3{
+  margin: auto;
+  text-align: center;
+  padding-top: 35vh;
+}
+#butn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+#butn:hover{
+  text-decoration: underline;
+  
+}

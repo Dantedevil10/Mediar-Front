@@ -1,4 +1,4 @@
-<section>
+<section id="pri">
   <header>
       <nav id="nav-bar">
           <div id="header-logo">
@@ -6,7 +6,7 @@
           </div>
           <div id="header-a">
               <ul>
-                  <li class="nav-item"><a routerLink="/login" class="nav-link">Menu</a></li>
+                  <li class="nav-item"><a style="cursor: pointer;" (click)="scrollToFuncionamento()" class="nav-link">Funcionamento</a></li>
                   <li class="nav-item"><a routerLink="/login" class="nav-link">Serviços</a></li>
                   <li class="nav-item"><a routerLink="/sobre nos" class="nav-link">Sobre nós</a></li>
               </ul>
@@ -36,12 +36,54 @@
               </h5>
           </div>
           <div id="main-button">
-              <button><p>Agendar Mediação</p></button>
+              <button routerLink="/login"><p>Agendar Mediação</p></button>
           </div>
       </div>
           <figure>
               <img id="wing" src="assets/Images/pngwing.com.png" alt="">
           </figure>
   </main>
-  <footer></footer>
+</section>
+<section>
+  <div id="ot">
+
+    <h1 #funcionamento style="padding-top: 100px;padding-left: 100px;">Como Funciona o Sistema de processo ?</h1><br>
+
+    <div id="ic">
+
+      <div class="kc">
+        <img  src="assets/icons/others/notification_1585205.png" width="90px" alt="">
+        <h3>Você Envia Seu Processo</h3>
+        <p>Você pode iniciar um processo preenchendo todos os dados necessários e enviar para análise,
+          assim você ja estará com 1 processo aberto
+        </p>
+      </div>
+      <div class="kc">
+        <img  src="assets/icons/others/financial-information_8467548.png" width="90px" alt="">
+        <h3>Seu Processo Será analisado por um Profissional</h3>
+        <p>Quando seu processo estiver aberto, ele será enviado aleatoriamente para um
+          profissional para ser analisado
+        </p>
+      </div>
+      <div class="kc">
+        <img  src="assets/icons/others/video-call_3321497.png" width="90px" alt="">
+        <h3>O Mediador irá Contata-lo</h3>
+        <p>Depois que seu processo for analisado o mediador que é o profissional que analisou
+          seu caso irá entrar em contato com você caso seu processo seja válido, e irá organizar uma reunião
+        </p>
+      </div>
+      <div class="kc">
+        <img  src="assets/icons/others/11161378.png" alt="" width="90px">
+        <h3>Será Obtido um veredito final para ambas as Partes</h3>
+        <p>Depois de realizar a reunião com ambas as partes, seu mediador irá tomar uma decisão com base na lei,
+          em relação ao que foi pedido no processo e o que foi discutido em reunião
+        </p>
+      </div>
+
+    </div><!--fim da div ic-->
+    <div id="ou">
+      <button id="pbtn" routerLink="/login">Desejo Abrir Um Processo</button>
+    </div>
+
+  </div><!--fim da div OT-->
 </section>
