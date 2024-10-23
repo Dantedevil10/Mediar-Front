@@ -75,7 +75,7 @@ main{
   width: 500px;
   background: linear-gradient(45deg,#a5755b,#754b34,#b47654,#b17a5c);
   background-size: 400% 100%;
-  animation: gradient 6s ease-in-out infinite alternate;
+  animation: gradient 1s ease-in-out infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -87,6 +87,7 @@ main{
   line-height: 40px;
   font-size: 50px;
   color: #a5755b;
+  padding-bottom: 0.5em; /* Adicionar um pequeno padding pode evitar cortes */
 }
 
 #main-text2{
