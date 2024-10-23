@@ -7,8 +7,8 @@ import { HomePrincipalComponent } from './components/home-principal/home-princip
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { TeladecadastroComponent } from './components/teladecadastro/teladecadastro.component';
 import { TeladeloginComponent } from './components/teladelogin/teladelogin.component';
-import { SobreNosComponent } from './components/sobre-nos/sobre-nos.component';
-import { TeladeandamentoComponent } from './components/teladeandamento/teladeandamento.component';
+import { SobreNosComponent } from './pagina/sobre-nos/sobre-nos.component';
+import { TeladeandamentoComponent } from './pagina/teladeandamento/teladeandamento.component';
 import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { HeaderLogComponent } from './components/header-log/header-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
