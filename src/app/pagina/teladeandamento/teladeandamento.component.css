@@ -17,7 +17,7 @@ section{
     background-color: #131B2B;
     position: absolute;
     border-radius: 50px;
-    height: 18px;   
+    height: 18px;
     width: 0%;
 }
 #progress-bar{
@@ -55,4 +55,17 @@ section{
     position: fixed;
     left: 470px;
     gap: 20px;
+}
+
+#butn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+#butn:hover{
+  text-decoration: underline;
+
 }
