@@ -1,4 +1,4 @@
-section{
+#fir{
   min-height: 100vh;
   background: #131B2B;
   color: white;
@@ -14,7 +14,7 @@ section{
 #second{
   width: 70%;
   background: #131B2B;
-  height: 130%;
+  min-height: 95vh;
   z-index: 1;
 }
 #images{
@@ -107,17 +107,3 @@ section{
   padding-bottom: 100px;
 }
 
-/* Media queries for responsiveness */
-@media screen and (max-width: 1024px) {
-  #second {
-    height: 100%;
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #second {
-    height: 100%;
-    width: 100%;
-  }
-}
