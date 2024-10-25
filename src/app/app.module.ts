@@ -13,6 +13,7 @@ import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { HeaderLogComponent } from './components/header-log/header-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
 import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
+import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
 
 
 @NgModule({ declarations: [
@@ -26,7 +27,8 @@ import { AgendamentoComponent } from './pagina/agendamento/agendamento.component
         HomeLogComponent,
         HeaderLogComponent,
         NotificacaoComponent,
-        AgendamentoComponent
+        AgendamentoComponent,
+        TelamensagemComponent
 
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,

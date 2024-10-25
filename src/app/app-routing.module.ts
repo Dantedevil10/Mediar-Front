@@ -8,6 +8,7 @@ import { TeladeandamentoComponent } from './pagina/teladeandamento/teladeandamen
 import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
 import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
+import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: 'andamento', component: TeladeandamentoComponent},
   { path: 'home-log', component: HomeLogComponent},
   { path: 'noti', component: NotificacaoComponent},
-  { path: '**', component: HomePrincipalComponent },// Rota Principal Caso O Caminho Não Seja Encontrado
+  { path: 'mensagens', component: TelamensagemComponent}, // Tela-mensagens: parte do chat.
+  { path: '**', component: HomePrincipalComponent },// Rota Principal Caso O Caminho Não Seja Encontrado.
 
 ];
 
