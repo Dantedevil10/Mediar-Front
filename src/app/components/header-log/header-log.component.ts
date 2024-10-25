@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderLogComponent {
 
+
+  isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }

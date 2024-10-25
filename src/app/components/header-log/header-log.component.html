@@ -2,11 +2,18 @@
   <img src="assets/Images/Prancheta 1.png" alt="" width="250px">
 
   <div id="content">
-    <img routerLink="/noti" style="margin-top: 5px;cursor: pointer;" src="assets/icons/sinobranco.png" width="40px" height="40px">
+    <img id="fo" routerLink="/noti" style="margin-top: 10px;cursor: pointer;" src="assets/icons/sinobranco.png" width="35px" height="35px">
 
-    <div id="user-content">
+    <div id="user-content" (click)="toggleMenu()">
       <p>Usuario</p>
       <div id="user-icon"></div>
+    </div>
+
+    <!-- Menu Dropdown -->
+    <div id="dropdown-menu" *ngIf="isMenuOpen">
+      <a href="#">Dados Da Conta</a>
+      <a href="#">Configurações</a>
+      <a href="#">Sair</a>
     </div>
 
   </div>

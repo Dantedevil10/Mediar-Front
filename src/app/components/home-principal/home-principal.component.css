@@ -93,6 +93,9 @@ main{
   font-size: 1.2rem;
   color: white;
 }
+#main-button{
+  display: flex;
+}
 #main-button button{
   border: none;
   border-radius: 20px;
