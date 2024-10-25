@@ -1,8 +1,22 @@
 
 section{
-    background-color: #131B2B;
+    background-color: #3269d6;
     height: 100%;
 }
+
+#butn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+#butn:hover{
+  text-decoration: underline;
+
+}
+
 
 #all-content{
     display: flex;
