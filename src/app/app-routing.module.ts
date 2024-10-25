@@ -8,6 +8,7 @@ import { TeladeandamentoComponent } from './pagina/teladeandamento/teladeandamen
 import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
 import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
+import { HistoricoComponent } from './pagina/historico/historico.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'andamento', component: TeladeandamentoComponent},
   { path: 'home-log', component: HomeLogComponent},
   { path: 'noti', component: NotificacaoComponent},
+  {path: 'historico', component: HistoricoComponent},
   { path: '**', component: HomePrincipalComponent },// Rota Principal Caso O Caminho Não Seja Encontrado
 
 ];
