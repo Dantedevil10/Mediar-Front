@@ -13,7 +13,9 @@ import { HomeLogComponent } from './pagina/home-log/home-log.component';
 import { HeaderLogComponent } from './components/header-log/header-log.component';
 import { NotificacaoComponent } from './pagina/notificacao/notificacao.component';
 import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
+import { HistoricoComponent } from './pagina/historico/historico.component';
 import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
+
 
 
 @NgModule({ declarations: [
@@ -28,7 +30,9 @@ import { TelamensagemComponent } from './components/telamensagem/telamensagem.co
         HeaderLogComponent,
         NotificacaoComponent,
         AgendamentoComponent,
+        HistoricoComponent,
         TelamensagemComponent
+
 
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
