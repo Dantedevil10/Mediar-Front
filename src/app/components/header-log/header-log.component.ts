@@ -23,7 +23,7 @@ export class HeaderLogComponent {
 
     if (userId) {
       // Busca os dados do usuário usando o serviço
-      this.serviceUService.DadosUsers().subscribe({
+      this.serviceUService.DadosUsers(userId).subscribe({
         next: (data) => {
           this.user = data; // Armazena os dados do usuário
         },
@@ -34,7 +34,7 @@ export class HeaderLogComponent {
       });
     }
   }
-  
+
 
   isMenuOpen = false; //Menu De Perfil
 

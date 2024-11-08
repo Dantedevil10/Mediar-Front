@@ -6,10 +6,10 @@ import { Component, ElementRef, Renderer2, ViewChild, AfterViewInit } from '@ang
   styleUrl: './teladeandamento.component.css'
 })
 export class TeladeandamentoComponent {
-  
+
   @ViewChild('teste') teste!: ElementRef;
 
-  aberto:boolean=true;
+  aberto:boolean=false;
   analise:boolean=false;
   fechado:boolean=false;
 
@@ -17,7 +17,11 @@ export class TeladeandamentoComponent {
 
   ngAfterViewInit() {
     if (this.aberto && !this.fechado && !this.analise) {
-      this.renderer.setStyle(this.teste.nativeElement, 'width', '10%');
+      this.renderer.setStyle(this.teste.nativeElement, 'width', '14%');
+    }else if (!this.aberto && !this.fechado && this.analise){
+      this.renderer.setStyle(this.teste.nativeElement, 'width', '40%');
+    }else if (!this.aberto && this.fechado && !this.analise){
+      this.renderer.setStyle(this.teste.nativeElement, 'width', '80%');
     }
   }
 }

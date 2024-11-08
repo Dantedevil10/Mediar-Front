@@ -22,7 +22,7 @@ export class HomeLogComponent {
 
     if (userId) {
       // Busca os dados do usuário usando o serviço
-      this.serviceUService.DadosUsers().subscribe({
+      this.serviceUService.DadosUsers(userId).subscribe({
         next: (data) => {
           this.user = data; // Armazena os dados do usuário
         },

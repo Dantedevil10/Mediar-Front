@@ -6,12 +6,14 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ServiceUService {
 
-  private id = "6e3febaf-fdb7-42e3-8b76-9edbbcc6cf65";
-  private defaultGateway = `http://localhost:8080/userCom/${this.id}`;
+  private defaultGateway = 'http://localhost:8080/userCom/';  // Remova o uso da variável id aqui
 
-  constructor( private http:HttpClient ) {}
+  constructor(private http: HttpClient) {}
 
-  DadosUsers(){
-    return this.http.get(this.defaultGateway);
+  DadosUsers(id: string) {
+    return this.http.get(`${this.defaultGateway}${id}`);
+  }
+  DadosMensagens() {
+    return this.http.get(`http://localhost:8080/mensagens`);
   }
 }
