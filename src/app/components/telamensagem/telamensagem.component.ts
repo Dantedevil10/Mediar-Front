@@ -30,7 +30,7 @@ export class TelamensagemComponent {
       this.serviceUService.DadosUsers(userId).subscribe({
         next: (data) => {
           this.user = data; // Armazena os dados do usuário
-          console.log(data);
+          // console.log(data);
         },
         error: (err) => {
           console.error(err);
@@ -42,7 +42,7 @@ export class TelamensagemComponent {
     this.serviceUService.DadosMensagens().subscribe({
       next:(data)=>{
         this.mensagens = data;
-        console.log(data)
+        // console.log(data)
       },
       error:(err)=>{
         console.error(err);
@@ -50,11 +50,11 @@ export class TelamensagemComponent {
       }
     })
 
-    
+
   }
 
   contatoSelect(contatoSelecionado: any) {
-    console.log(contatoSelecionado);
+    // console.log(contatoSelecionado);
     if (contatoSelecionado) {
       this.selecionado = true;
     } else if (contatoSelecionado == "") {

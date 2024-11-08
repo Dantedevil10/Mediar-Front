@@ -127,7 +127,7 @@ hr{
     margin-right: 10px;
     cursor: pointer;
     transition: all ease 0.5s;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 2px black;
 }
 #contact-people:hover{
   background-color: rgba(185, 183, 183, 0.493);
@@ -164,41 +164,34 @@ nav{
 
 
 
-#chatbox{
-    min-height: 0vh;
-    display: flex;
-    flex-direction: column;
-    /* background-color: pink; */
-    padding: 10px;
+#chatbox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
 }
 
-.my-message{
+.my-message {
   background-color: #131B2B;
   border-radius: 10px;
-  display: inline-flex;
-  justify-content: flex-end;
   color: white;
   text-align: left;
   width: fit-content;
-  max-width: 70%; /* Limita a largura da mensagem */
-  margin-bottom: 10px;
-  margin-left: auto;      /* Alinha à direita */
-  padding: 10px;
+  max-width: 70%;
+  margin-left: auto;  /* Alinha à direita */
   margin-right: 5%;
+  padding: 10px;
 }
 
 
-.other-message{
+.other-message {
   background-color: #D9D9D9;
   border-radius: 10px;
   width: fit-content;
   max-width: 70%;
   margin-left: 5%;
-  margin-top: 20px;
-  margin-bottom: 10px;
   padding: 10px;
 }
-
 
 #footer-area{
     background-color: transparent;
