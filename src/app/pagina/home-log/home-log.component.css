@@ -1,7 +1,8 @@
 #fir{
   min-height: 100vh;
-  background: #131B2B;
-  color: white;
+  background: #e8eaee;
+  color: black;
+  overflow: hidden;
 }
 #first{
   width: 100%;
@@ -13,7 +14,7 @@
 }
 #second{
   width: 70%;
-  background: #131B2B;
+  background: #e8eaee;
   min-height: 95vh;
   z-index: 1;
 }
@@ -55,8 +56,11 @@
 .btns{
   width: 25vh;
   height: 25vh;
-  background: #2E62CA;
-  border: 2px solid white;
+  background: rgb(204, 201, 201);
+  /* border: 2px solid white; */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +68,12 @@
   text-align: center;
   gap: 10px;
   cursor: pointer;
+  transition: all ease 0.2s;
 }
+.btns:hover{
+  box-shadow: 1px 1px 10px black;
+}
+
 
 #ot{
   width: 100%;

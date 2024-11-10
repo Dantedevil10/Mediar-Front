@@ -12,10 +12,11 @@ export class TelamensagemComponent {
   user: any; // Para armazenar os dados do usuário
   mensagens: any;
   errorMessage: string | null = null; // Para armazenar mensagens de erro, se necessário
-  filteredMessages: any[] = [];
+
+  // filteredMessages: any[] = []; ignore essa variavel
 
   contatoSelecionado: string = "";
-  selecionado: boolean = false;
+  selecionado: boolean = false; 
 
   constructor(
     private route: ActivatedRoute,
