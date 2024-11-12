@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'home-log', component: HomeLogComponent},
   { path: 'noti', component: NotificacaoComponent},
   { path: 'historico', component: HistoricoComponent},
-  { path: 'mensagens/:id', component: TelamensagemComponent}, // Tela-mensagens: parte do chat.
+  { path: 'mensagens/:id', component: TelamensagemComponent},   // Tela-mensagens: parte do chat.
   { path: '**', component: HomePrincipalComponent },// Rota Principal Caso O Caminho Não Seja Encontrado
 
 
