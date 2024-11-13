@@ -18,6 +18,7 @@ import { HistoricoComponent } from './pagina/historico/historico.component';
 import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
 import { DadosdacontaComponent } from './components/dadosdaconta/dadosdaconta.component';
 import { ChatcomiaComponent } from './pagina/chatcomia/chatcomia.component';
+import { HomeLogMComponent } from './pagina/home-log-m/home-log-m.component';
 
 
 
@@ -36,7 +37,8 @@ import { ChatcomiaComponent } from './pagina/chatcomia/chatcomia.component';
         HistoricoComponent,
         TelamensagemComponent,
         DadosdacontaComponent,
-        ChatcomiaComponent
+        ChatcomiaComponent,
+        HomeLogMComponent
 
 
     ],
