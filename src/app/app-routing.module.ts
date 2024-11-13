@@ -11,6 +11,7 @@ import { AgendamentoComponent } from './pagina/agendamento/agendamento.component
 import { HistoricoComponent } from './pagina/historico/historico.component';
 import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
 import { DadosdacontaComponent } from './components/dadosdaconta/dadosdaconta.component';
+import { ChatcomiaComponent } from './pagina/chatcomia/chatcomia.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'noti', component: NotificacaoComponent},
   { path: 'historico', component: HistoricoComponent},
   { path: 'conta', component: DadosdacontaComponent},
+  { path: 'chatIa', component: ChatcomiaComponent},
   { path: 'mensagens/:id', component: TelamensagemComponent}, // Tela-mensagens: parte do chat.
   { path: '**', component: HomePrincipalComponent },// Rota Principal Caso O Caminho Não Seja Encontrado
 

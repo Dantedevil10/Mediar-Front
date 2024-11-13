@@ -17,6 +17,7 @@ import { AgendamentoComponent } from './pagina/agendamento/agendamento.component
 import { HistoricoComponent } from './pagina/historico/historico.component';
 import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
 import { DadosdacontaComponent } from './components/dadosdaconta/dadosdaconta.component';
+import { ChatcomiaComponent } from './pagina/chatcomia/chatcomia.component';
 
 
 
@@ -34,7 +35,8 @@ import { DadosdacontaComponent } from './components/dadosdaconta/dadosdaconta.co
         AgendamentoComponent,
         HistoricoComponent,
         TelamensagemComponent,
-        DadosdacontaComponent
+        DadosdacontaComponent,
+        ChatcomiaComponent
 
 
     ],
