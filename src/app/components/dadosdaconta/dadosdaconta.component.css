@@ -1,0 +1,103 @@
+#content-ac{
+  background-color: white;
+  width: 80%;
+
+}
+section{
+  background-color: rgba(218, 222, 224, 0.438);
+  min-height: 100vh;
+}
+#g-c{
+  margin-top: 2%;
+  display: flex;
+}
+#c-l{
+  padding: 4%;
+
+}
+#u-c{
+  display: flex;
+  margin-left: 10% ;
+  gap: 2%;
+  /* background-color: #131B2B; */
+}
+#u-c div{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 200%;
+}
+label{
+  margin-bottom: 5%;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.600);
+}
+#fb{
+  padding: 10px;
+  border: none;
+  background-color: rgba(255, 68, 0, 0.767);
+  color: white;
+  border-radius: 3px;
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  transition: all 0.5s;
+}
+#fb:hover{
+  background-color: rgba(255, 68, 0, 1);
+}
+#let p {
+  font-size: 0.9rem;
+  margin-left: 6%;
+  padding-top: 20px;
+}
+#let p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+#butn{
+  display: flex;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 10%;
+  height: 5%;
+  margin-top: 6px;
+  margin-left:10px ;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+#butn:hover{
+  text-decoration: underline;
+
+}
+#user-icon{
+  width: 50px;
+  height: 50px;
+  background-color: #131B2B;
+  border-radius: 100px;
+}
+#user-content{
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 10%;
+  justify-content: space-between;
+  gap:20px;
+  margin-right: 50px;
+  border-radius: 20px;
+  padding: 5px;
+  transition: ease all 0.5s;
+  background-color:rgba(106, 137, 165, 0.692);
+}
+#user-content:hover{
+  background-color:rgba(106, 137, 165, 0.692);
+  cursor: pointer;
+}

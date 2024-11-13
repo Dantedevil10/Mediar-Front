@@ -16,6 +16,7 @@ import { NotificacaoComponent } from './pagina/notificacao/notificacao.component
 import { AgendamentoComponent } from './pagina/agendamento/agendamento.component';
 import { HistoricoComponent } from './pagina/historico/historico.component';
 import { TelamensagemComponent } from './components/telamensagem/telamensagem.component';
+import { DadosdacontaComponent } from './components/dadosdaconta/dadosdaconta.component';
 
 
 
@@ -32,7 +33,8 @@ import { TelamensagemComponent } from './components/telamensagem/telamensagem.co
         NotificacaoComponent,
         AgendamentoComponent,
         HistoricoComponent,
-        TelamensagemComponent
+        TelamensagemComponent,
+        DadosdacontaComponent
 
 
     ],
